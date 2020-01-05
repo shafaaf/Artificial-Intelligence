@@ -132,7 +132,6 @@ const disableListeners = () => {
     }
 };
 
-enableListeners();
 
 //---------------------
 // AI stuff
@@ -272,4 +271,13 @@ function findBestMove(board: String[][]): Move {
         }
     }
     return bestMove;
+}
+
+// Main code
+// ------------------
+let rand = Math.floor(Math.random() * 2) + 1;
+if (rand == 1) { // human turn
+    enableListeners();
+} else {
+    opponentTurn();
 }
