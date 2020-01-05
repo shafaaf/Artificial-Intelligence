@@ -68,11 +68,7 @@ const setTurn = (index: number, letter: string) => {
 
 let opponentChoiceRandom = (): number => {
     let element = emptyQs()[Math.floor(Math.random() * emptyQs().length)];
-
-    // REMOVE THIS
-    return opponentChoiceMinimaxAI();
-
-    //return qNumId(element.id);
+    return qNumId(element.id);
 };
 
 let opponentChoiceMinimaxAI = (): number => {
@@ -99,7 +95,8 @@ let convertElementsToBoard = (): String[][] => {
 let opponentTurn = () => {
     disableListeners();
     setTimeout(() => {
-        setTurn(opponentChoiceRandom(), 'O');
+        //setTurn(opponentChoiceRandom(), 'O');
+        setTurn(opponentChoiceMinimaxAI(), 'O');
         if (checkForVictory()) {
         } else {
             enableListeners();
