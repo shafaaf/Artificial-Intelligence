@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "outDir": "../dist",
-    "module": "umd",
+    "outFile": "../dist/index.js",
+    "module": "system",
     "target": "es5",
     "sourceMap": true,
     "noImplicitAny": true,
