@@ -1,12 +1,7 @@
-import "mocha";
-import * as assert from "assert";
-import {SmokeTest} from "../dist";
+const dist = require("../dist");
 
 describe("index",() => {
-
     it("should say 'hello world'",()=>{
-        SmokeTest.HelloWorld();
-        assert.ok(true);
+        dist.SmokeTest.HelloWorld();
     });
-
 });

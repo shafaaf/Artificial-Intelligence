@@ -5,3 +5,5 @@ export module SmokeTest {
         console.log("Hello World");
     }
 }
+
+// "test": "./node_modules/mocha/bin/mocha tests/**/*test.js"
