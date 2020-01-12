@@ -1,0 +1,18 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/ https://www.youtube.com/watch?v=Sz1WhZRwFsQ&t=942s https://github.com/lhartikk/simple-chess-ai",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/chessboardjs": "^0.3.1",
+    "arithmetic": "^1.0.1",
+    "chessboardjs": "0.0.1",
+    "repeat-string": "^1.6.1",
+    "systemjs": "^6.1.9"
+  },
+  "author": "",
+  "license": "ISC"
+}

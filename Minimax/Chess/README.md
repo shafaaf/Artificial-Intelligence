@@ -6,9 +6,7 @@ https://github.com/lhartikk/simple-chess-ai
 
 ### Installation
 ```
-npm install -g  typescript
-cd source
-tsc
-cd ../
-open index.html
+
 ```
+
+https://medium.com/jeremy-keeshin/hello-world-for-javascript-with-npm-modules-in-the-browser-6020f82d1072

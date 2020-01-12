@@ -1,9 +1,19 @@
 {
-  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "outFile": "../dist/index.js",
-    "module": "system"
-  },
-  "exclude": [
-  ]
+    "outDir": "../dist",
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "moduleResolution": "node",
+    "declaration": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.collection"
+    ]
+  }
 }
